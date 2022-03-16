@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    display: grid;
+    grid-template-columns: 7vw 25vw 70vw;
+}
+.section1{
+    padding: 1.5vh;
+    background-color: #f5f5f55b;
+    height: 98vh;
+    box-shadow: 3px 3px 5px black;
+}
+.section2{
+    height: 100vh;
+}
+.center_icon{
+    text-align: center;
+}
+.activity_div{
+    margin-top: 2vh;
+}
+.team_div{
+    margin-top: 2vh;
+}
+.calender_div{
+    margin-top: 2vh;
+}
+.call_div{
+    margin-top: 2vh;
+}
+.files_div{
+    margin-top: 2vh;
+}
+.help_div{
+    margin-top: 30vh;
+}
+.notification{
+    width: 3vw;
+}
+.team{
+    width: 3vw;
+}
+.calender{
+    width: 3vw;
+}
+.call{
+    width: 3vw;
+}
+.files{
+    width: 3vw;
+}
+.help{
+    width: 3vw;
+}
+.activity_text{
+    text-align: center;
+}
+.teams_text{
+    text-align: center;
+}
+.calender_text{
+    text-align: center;
+}
+.call_text{
+    text-align: center;
+}
+.files_text{
+    text-align: center;
+}
+.help_text{
+    text-align: center;
+}
+
+
+
+
+.chat_header{
+    height: 9.76vh;
+    background-color: #c5c5c55b;
+}
+.chat_header_text{
+    padding-top: 1.5vh;
+    margin-left: 2vw;
+}
+.hr1{
+    margin-top: 4.4vh;
+}
+
+
+.person{
+    background-color: rgba(219, 217, 217, 0.664);
+    width: 24.5vw;
+    margin-left: 0.5vw;
+    margin-top: 0.3vh;
+    height: 10vh;
+    border: 0;
+}
+.person1{
+    background-color: rgba(219, 217, 217, 0.664);
+    width: 24.5vw;
+    margin-left: 0.5vw;
+    height: 10vh;
+    border: 0;
+}
+.person1 :hover{
+    
+}
+.chat1{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.profile_pic1{
+    width: 3vw;
+    border-radius: 75%;
+    margin-left: 1vw;
+}
+.person1_name{
+    margin-right: 2vw;
+    margin-top: 1vh;
+}
+
+
+.chat_area{
+    width: 50vw;
+    height: 5vh;
+    border-radius: 0.2em;
+    position: absolute;
+    top: 90vh;
+    left: 34vw;
+}
+.send{
+    height: 5.5vh;
+    border-radius: 0.2em;
+    position: absolute;
+    top: 90vh;
+    left: 85vw;
+}
+
+.display_here{
+    margin-left: 100vh;
+    background: rgb(194, 188, 188);
+    padding: 3px;
+}
+
+.head_section{
+    display: flex;
+    background-color: #c5c5c55b;
+    padding: 2vh;
+}
+.head_name{
+    margin-left: 2vw;
+    padding-top: 1vh;
+}
+.head_chat{
+    margin-left: 2vw;
+    padding-top: 1vh;
+}
+.head_file{
+    margin-left: 2vw;
+    padding-top: 1vh;
+}
+.head_more{
+    margin-left: 2vw;
+    padding-top: 1vh;
+}
+.header_plus{
+    margin-left: 2vw;
+    padding-top: 1vh;
+}
